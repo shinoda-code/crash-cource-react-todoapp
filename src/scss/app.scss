@@ -1,0 +1,18 @@
+h1 {
+    font-size: 2em;
+    color: red;
+    transition: all .3s;
+
+    &:hover {
+        color: blue;
+        transform: translateX(50px);
+    }
+}
+
+.bg {
+    // background-image: url('~@imgs/orange.png');
+    background-image: url('../images/orange.png');
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+}
